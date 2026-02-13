@@ -56,6 +56,7 @@ if __name__ == "__main__":
     app.run_webhook(
         listen="0.0.0.0",
         port=int(os.environ.get("PORT", 10000)),
-        webhook_url="https://SEU_APP.onrender.com"
+        webhook_url="https://telegramgeracartas.onrender.com"
+
     )
 Commit changes
